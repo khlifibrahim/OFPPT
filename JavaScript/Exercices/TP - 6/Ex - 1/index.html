@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Training Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Training Form</h1>
+        <form class="form">
+            <label for="year">Year of Formation:</label>
+            <select id="year" name="year">
+                <option value="0">Select  Year...</option>
+                <option value="1">1ère année</option>
+                <option value="2">2ème année</option>
+            </select><br>
+
+            <div class="check">
+                <input type="checkbox" id="redoubling" name="redoubling">
+                <label for="redoubling">Already Redoublant</label>
+            </div>
+            
+            <br>
+
+            <label for="gpa">Average Grade:</label>
+            <input type="number" id="gpa" name="gpa" step="0.01" required><br>
+
+            <label for="absences">Number of Absences:</label>
+            <input type="number" id="absences" name="absences" min="0" required><br>
+
+            <input type="button" value="Validate" class="validate-btn" onclick="determineResult()">
+        </form>
+
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

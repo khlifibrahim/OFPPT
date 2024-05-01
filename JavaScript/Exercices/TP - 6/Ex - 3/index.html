@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Table</title>
+</head>
+<body>
+    <table class="table table-bordered">
+        <tr>
+            <th>Quantity</th>
+            <th>Article</th>
+            <th>Price per Unite</th>
+            <th>Price</th>
+        </tr>
+
+        <tr>
+            <td><input class="quantity" type="text" value="0" onblur="addQuantity(0)"></td>
+            <td>Office</td>
+            <td><input class="price_p_unite" type="text" value="450" readonly onchange="addQuantity(0)"></td>
+            <td><input type="text" class="price" onchange="addQuantity(0)" value="0" readonly></td>
+        </tr>
+
+        <tr>
+            <td><input class="quantity" type="text" value="0" onblur="addQuantity(1)"></td>
+            <td>Chaises</td>
+            <td><input class="price_p_unite" type="text" value="80" readonly onchange="addQuantity(1)"></td>
+            <td><input type="text" class="price" onchange="addQuantity(1)" value="0" readonly></td>
+        </tr>
+        <tr>
+            <td><input class="quantity" type="text" value="0" onblur="addQuantity(2)"></td>
+            <td>Roulette de Chaises (paquet de 4)</td>
+            <td><input class="price_p_unite" type="text" value="16.5" readonly onchange="addQuantity(2)"></td>
+            <td><input type="text" class="price" onchange="addQuantity(2)" value="0" readonly></td>
+        </tr>
+        <tr>
+            <td colspan="3">Total TTC</td>
+            <td><input class="total" type="text" onchange="addQuantity()"></td>
+        </tr>
+    </table>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
