@@ -1,0 +1,47 @@
+.container {
+    padding: 4rem;
+}
+
+.container .btns{
+    margin: 24px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.box-container {
+    margin: 8px 0;
+}
+.mr-0 {
+    margin: 0 !important;
+}
+.box-container .item,
+#box-container {
+    height: 40px;
+}
+.pd {
+    padding: 16px !important;
+}
+.mr {
+    margin: 16px;
+}
+.item1 {
+    background-color: rgb(142, 226, 163);
+}
+.item2 {
+    background-color: rgb(126, 104, 251);
+}
+.item3 {
+    background-color: rgb(255, 58, 58);
+}
+.item4 {
+    background-color: rgb(63, 255, 210);
+}
+.item5 {
+    background-color: rgb(163, 57, 255);
+}
+.item6 {
+    background-color: rgb(246, 178, 40);
+}
+
+.hide {
+    display: none !important;
+}
