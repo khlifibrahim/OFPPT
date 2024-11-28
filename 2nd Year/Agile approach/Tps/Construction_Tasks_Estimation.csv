@@ -1,0 +1,9 @@
+Layer,Task,Estimated Charge (hours)
+Presentation,Design user interface layouts,15
+Presentation,Develop responsive templates,15
+Treatment,Implement core business logic,30
+Treatment,Develop API integrations,30
+Data,Set up database schemas,25
+Data,Optimize queries for performance,25
+Messages,Configure notification systems,10
+Messages,Implement messaging protocols,10

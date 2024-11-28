@@ -1,0 +1,8 @@
+' Set @total = 0 ' : this line is setting variable @total to 0.
+
+' Set @total = @total + 1 ' : this line incrimment the @total variable with 1.
+
+' Select @total ' : this line is select the variable @total.
+
+so this code is initialize a variable with 0 and then increment it with one then select and display the value of it.
+

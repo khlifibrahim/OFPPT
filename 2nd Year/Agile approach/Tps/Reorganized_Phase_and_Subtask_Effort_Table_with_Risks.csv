@@ -1,0 +1,20 @@
+Phase,Subtask,Effort (hours),Risk (hours),Provisioned Effort (hours),Manager / Directeur de projet,Chef de projet,Expert technique,Ingénieur conc. dev.,Consultant architecte,Designer
+Avant projet,Identification des besoins,4.0,0.6,4.6,0.4,0.6,0.8,1.6,0.4,0.2
+Avant projet,Analyse de faisabilité,6.0,0.9,6.9,0.6,0.9,1.2,2.4,0.6,0.3
+Définition,Spécification des exigences fonctionnelles,7.0,1.05,8.05,0.7,1.05,1.4,2.8,0.7,0.35
+Définition,Spécification des exigences techniques,3.0,0.45,3.45,0.3,0.45,0.6,1.2,0.3,0.15
+Conception,Modélisation des données,10.0,1.5,11.5,1.0,1.5,2.0,4.0,1.0,0.5
+Conception,Conception de l'architecture,10.0,1.5,11.5,1.0,1.5,2.0,4.0,1.0,0.5
+Construction,"Installation de l'environnement de développement, de test et de production",2.0,0.3,2.3,0.2,0.3,0.4,0.8,0.2,0.1
+Construction,Développement de l'application et tests unitaires,18.0,2.7,20.7,1.8,2.7,3.6,7.2,1.8,0.9
+Construction,Tests d'intégration et corrections des anomalies,4.0,0.6,4.6,0.4,0.6,0.8,1.6,0.4,0.2
+Tests,Réalisation des tests fonctionnels,6.0,0.9,6.9,0.6,0.9,1.2,2.4,0.6,0.3
+Tests,Réalisation des tests de charge,4.0,0.6,4.6,0.4,0.6,0.8,1.6,0.4,0.2
+Déploiement,Installation et configuration en production,6.0,0.9,6.9,0.6,0.9,1.2,2.4,0.6,0.3
+Déploiement,Formation des utilisateurs,4.0,0.6,4.6,0.4,0.6,0.8,1.6,0.4,0.2
+Avant projet,TOTAL,10.0,1.5,11.5,1.0,1.5,2.0,4.0,1.0,0.5
+Définition,TOTAL,10.0,1.5,11.5,1.0,1.5,2.0,4.0,1.0,0.5
+Conception,TOTAL,20.0,3.0,23.0,2.0,3.0,4.0,8.0,2.0,1.0
+Construction,TOTAL,24.0,3.6,27.6,2.4,3.6,4.8,9.6,2.4,1.2
+Tests,TOTAL,10.0,1.5,11.5,1.0,1.5,2.0,4.0,1.0,0.5
+Déploiement,TOTAL,10.0,1.5,11.5,1.0,1.5,2.0,4.0,1.0,0.5

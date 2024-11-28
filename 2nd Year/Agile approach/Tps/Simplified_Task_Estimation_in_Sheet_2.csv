@@ -1,0 +1,291 @@
+Exigence, description (Quoi?),description (Comment?),taches  (Comment?),détails (comment),Présentation,Traitements,Données,Messages,charge codage,priorité (itération),Estimated Duration (hours)
+Ajouter une annonce  de location,En tant que administrateur la solution doit permettre d’ajouter une nouvelle annonce à partir d’un formulaire,"1-se connecter sur l'espace admin
+2-cliquer sur le lien de menu gestion des annonces
+3-visualiser la liste des annonces 
+4-cliquer sur le bouton ajouter
+5-remplir le formulaire 
+6-voir le message de succès et actualisation liste annonces","- Création du'un lien de Menu ""gestion des annonces ""
+- Création d’un formulaire d’ajout (View)
+- Création de la partie backend  (Controlleur + Modèle)        ", - Création d’une page (composant) contenant un form d’ajout         - Création d’une action coté backend permettant de traiter la requête post envoyée par le form d’ajout (API Controlleur + Document / Entity) ,0.5,0.5,0.5,0,1.5,1,20
+Liste des annonces ,En tant que administrateur la solution doit permettre de visualiser la liste de annonces  + pagination + filtres,...,"- Création d'une page pour lister les annonces                                                                                - Formulaire de filtres (type d'annonce , ...) + pagination               ","- Création d'une page pour lister les annonces de ventes /locations                                                                                               - Formulaire de filtres (type d'annonce , ...) + pagination                                    - Coté Backend : création d'un service web (API) donnant la liste des annonces selon le filtre ",1,1,0,0,2,1,25
+,,,,,,,,,,,30
+,,,,,,,,,,,15
+,,,,,,,,,,,10
+,,,,,,,,,,,0
+,,,,,,,,,,,0
+,,,,,,,,,,,0
+,,,,,,,,,,,0
+Exigence, description (Quoi?),description (Comment?),taches  (Comment?),détails (comment),Présentation,Traitements,Données,Messages,charge codage,priorité (itération),0
+S’inscrire,En tant que visiteur je peux s'inscrire,"1-Accéder à la page d'inscription
+2-Remplir le formulaire d'inscription
+3-Valider le formulaire
+4-Confirmation de l'inscription
+5-Connexion au compte","Création de la page d'inscription
+
+Développement du formulaire d'inscription
+
+Validation des données du formulaire
+
+Envoi de la confirmation d'inscription
+
+Redirection vers la connexion au compte",,1,1,1,0.5,3.5,1,0
+se connecter,En tant que client je peux connecter,"1-Accéder à la page de connexion
+2-Saisir les identifiants
+3-Cliquer sur ""Connexion""
+4-Vérification des identifiants( Si les identifiants sont incorrects, un message d'erreur s'affiche, invitant l'utilisateur à réessayer ou à utiliser l'option ""Mot de passe oublié"".)
+5-Accès à l'espace personnel","Création de la page de connexion
+
+Mise en place du formulaire pour saisir les identifiants
+
+Validation des identifiants
+
+Gestion des erreurs et affichage du message d'erreur en cas d'identifiants incorrects
+
+Redirection vers l'espace personnel après connexion réussie",,1,1,1,0.5,3.5,1,0
+Contactez nous ,"En tant que visiteur ou client, je peux contacte l'entreprise","
+1. Accès à la section ""Contactez-nous""
+2. Sélection du type de demande (question, problème, suggestions)
+3. Remplissage du formulaire de contact
+4. Soumission du formulaire
+5. Confirmation de la soumission
+6. Réception de la réponse de l'équipe de support
+7. Suivi de la demande (si nécessaire)
+8. Déconnexion ou retour à l'accueil","Création de la section ""Contactez-nous""
+
+Mise en place du formulaire de contact
+
+Ajout de la sélection du type de demande
+
+Confirmation de soumission et réponse automatique
+
+Suivi de la demande et gestion des réponses",,1,0.5,0.5,1,2,1,0
+Ajoute annonces de location,"En tant que admin ,je peux ajouter des annonces de location","
+1. Connexion de l'utilisateur
+2. Accès à la section ""Ajouter une annonce de location""
+3. Remplissage du formulaire d'annonce (titre, description, loyer, etc.)
+4. Téléchargement des photos de l'appartement
+5. Sélection des caractéristiques (nombre de chambres, superficie, équipements, etc.)
+6. Vérification des informations saisies
+7. Soumission de l'annonce
+8. Confirmation de la publication de l'annonce
+","
+- Implémentation de la connexion utilisateur
+- Création de la section ""Ajouter une annonce de location""
+- Développement du formulaire d'annonce (titre, description, loyer, etc.)
+- Intégration de la fonctionnalité de téléchargement de photos
+- Ajout des champs pour les caractéristiques (chambres, superficie, équipements)
+- Validation des informations saisies
+- Enregistrement de l'annonce dans la base de données
+- Confirmation et affichage du message de publication",,1,1,1,0.5,3.5,1,0
+Modifier annonces de location,"En tant que admin ,je peux modifier des annonces de location ","
+1. Connexion de l'utilisateur
+2. Accès à la section ""Mes annonces de location""
+3. Sélection de l'annonce à modifier
+4. Remplissage du formulaire de modification (titre, description, loyer, etc.)
+5. Téléchargement de nouvelles photos (si nécessaire)
+6. Mise à jour des caractéristiques (nombre de chambres, superficie, équipements, etc.)
+7. Vérification des informations modifiées
+8. Soumission des modifications
+9. Confirmation de la mise à jour de l'annonce
+","
+- Implémentation de la connexion utilisateur
+- Création de la section ""Mes annonces de location""
+- Développement de la fonctionnalité de sélection de l'annonce à modifier
+- Création du formulaire de modification (titre, description, loyer, etc.)
+- Intégration de la fonctionnalité de téléchargement de nouvelles photos
+- Mise à jour des caractéristiques (chambres, superficie, équipements)
+- Validation des informations modifiées
+- Enregistrement des modifications dans la base de données
+- Confirmation et affichage du message de mise à jour",,1,1,1,0.5,3.5,1,0
+Supprimer annonces de location,"En tant que admin ,je peux supprimer des annonces de location","
+1. Connexion de l'utilisateur
+2. Accès à la section ""Mes annonces de location""
+3. Sélection de l'annonce à supprimer
+4. Confirmation de la suppression de l'annonce
+5. Notification de la suppression réussie
+6. Mise à jour de la liste des annonces
+7. Déconnexion ou retour à l'accueil
+","
+- Implémentation de la connexion utilisateur
+- Création de la section ""Mes annonces de location""
+- Développement de la fonctionnalité de sélection de l'annonce à supprimer
+- Implémentation de la confirmation de suppression
+- Suppression de l'annonce de la base de données
+- Affichage de la notification de suppression réussie
+- Mise à jour de la liste des annonces affichées",,0.5,1,0.5,0.5,2,1,0
+rechercher les Annonces des locations,"En tant que visiteur ou client, je peux rechercher les annonces des locations","1-se connecter sur l'espace admin
+2-cliquer sur le lien de menu gestion des annonces
+3-visualiser la liste des annonces 
+4-cliquer sur le bouton ajouter
+5-remplir le formulaire 
+6-voir le message de succès et actualisation liste annonces","
+- Implémentation de la connexion de l'utilisateur
+- Création de la section ""Gestion des annonces""
+- Affichage de la liste des annonces avec options de recherche et filtres
+- Développement de la fonctionnalité de tri et filtrage des annonces
+- Mise à jour dynamique de la liste des annonces selon les critères de recherche
+- Affichage de la notification de succès lors de la recherche",,1,1,1,0.5,3.5,1,0
+suivre les demandes de visite,En tant que client je peux suivre mes demandes,"1-Se connecter à l'espace personnel
+2-Accéder à la section ""Mes demandes""
+3-Visualiser les demandes en cours
+4-Consulter les détails d'une demande
+
+","Création de la section ""Mes demandes"" dans l'espace personnel
+
+Développement de la fonctionnalité pour afficher les demandes en cours
+
+Affichage des détails de chaque demande",,1,1,1,0.5,3.5,1,0
+consulter les achats,En tant que client ou visiteur je peux consulter les achats,"
+1. Connexion de l'utilisateur
+2. Accès à la section ""Mes transactions""
+3. Affichage de la liste des transactions
+4. Consultation des détails d'une transaction
+5. Filtrage des transactions
+6. Téléchargement ou impression des contrats et reçus
+7. Déconnexion ou retour à l'accueil
+","
+- Implémentation de la connexion utilisateur
+- Création de la section ""Mes transactions""
+- Développement de l'affichage de la liste des transactions
+- Implémentation de la consultation des détails d'une transaction
+- Ajout de la fonctionnalité de filtrage des transactions
+- Intégration de la fonctionnalité de téléchargement ou impression des contrats et reçus",,1,1,1,0.5,3.5,1,0
+diposer dossier locataire,En tant que client je peux diposer mon dossier locataire,"
+1. Connexion de l'utilisateur
+2. Accès à la section ""Dépôt de dossier locataire""
+3. Remplissage du formulaire de demande de location
+4. Téléchargement des documents nécessaires (pièce d'identité, justificatif de revenus, etc.)
+5. Vérification des informations saisies
+6. Soumission du dossier de location
+7. Confirmation du dépôt du dossier
+8. Notification de l'état du dossier (accepté, en attente, refusé)
+9. Suivi de l'avancement du dossier (si nécessaire)
+10. Déconnexion ou retour à l'accueil","
+- Implémentation de la connexion utilisateur
+- Création de la section ""Dépôt de dossier locataire""
+- Développement du formulaire de demande de location
+- Intégration de la fonctionnalité de téléchargement des documents nécessaires
+- Validation des informations saisies dans le formulaire
+- Enregistrement et soumission du dossier dans la base de données
+- Confirmation et affichage du message de dépôt du dossier
+- Développement de la notification de l'état du dossier (accepté, en attente, refusé)
+- Mise en place du suivi de l'avancement du dossier",,1,1,1,0.5,3.5,1,0
+suivre les demandes de visite,En tant que client je peux suivre mes demandes,"1-Se connecter à l'espace personnel
+2-Accéder à la section ""Mes demandes""
+3-Visualiser les demandes en cours
+4-Consulter les détails d'une demande
+
+","Création de la section ""Mes demandes"" dans l'espace personnel
+
+Développement de la fonctionnalité pour afficher les demandes en cours
+
+Affichage des détails de chaque demande",,1,1,1,0.5,3.5,1,0
+demander une visite,En tant que client je peux demander une visite,"1-Accéder à la page d'une annonce
+2-Cliquer sur ""Demander une visite""
+3-Remplir le formulaire de demande de visite
+4-Valider la demande
+5-Confirmation de la demande
+6-Suivi de la demande","
+- Accès à la page d'une annonce
+- Implémentation du bouton ""Demander une visite""
+- Développement du formulaire de demande de visite
+- Validation et soumission de la demande
+- Affichage de la confirmation de la demande
+- Mise en place du suivi de la demande",,0.5,1,1,2,4.5,1,0
+louer,En tant que client je peux louer,"
+1. Connexion de l'utilisateur
+2. Recherche d'appartements à louer
+3. Filtrage des résultats de recherche
+4. Consultation des détails d'un appartement
+5. Demande de visite
+6. Soumission de la candidature de location
+7. Signature du contrat de location
+8. Paiement du loyer (premier mois, dépôt de garantie)
+9. Confirmation de la location
+10. Déconnexion ou retour à l'accueil","
+- Implémentation de la connexion utilisateur
+- Développement de la fonctionnalité de recherche d'appartements
+- Ajout de filtres pour affiner les résultats de recherche
+- Affichage des détails de l'appartement sélectionné
+- Intégration de la fonctionnalité de demande de visite
+- Développement du formulaire de candidature de location
+- Mise en place de la signature électronique du contrat de location
+- Intégration du système de paiement (premier mois, dépôt de garantie)
+- Affichage de la confirmation de la location",,2,2,2,1,7,1,0
+Payer un loyer     ,En tant que client je peux payer un loyer     ,"1-Se connecter à l'espace personnel
+2-Accéder à la section ""Paiement de loyer""
+3-Sélectionner la facture de loyer à payer
+4-Choisir le mode de paiement
+5-Saisir les informations de paiement 
+6-Valider le paiement
+7-Confirmation du paiement
+8-Suivi du paiement","Accès à la section ""Paiement de loyer"" dans l'espace personnel
+
+Sélection de la facture de loyer
+
+Intégration des options de mode de paiement
+
+Mise en place du formulaire pour les informations de paiement
+
+Validation et traitement du paiement
+
+Confirmation du paiement
+
+Ajout de la fonctionnalité de suivi du paiement",,1,1,1,0.5,3.5,1,0
+Ajoute annonces de ventes,"En tant que admin ,je peux ajouter des annonces de ventes","
+1. Connexion de l'admin
+2. Accès à la section ""Ajouter une annonce de vente""
+3. Remplissage du formulaire d'annonce (titre, description, prix, etc.)
+4. Téléchargement des photos de l'appartement
+5. Sélection des caractéristiques (nombre de chambres, superficie, etc.)
+6. Vérification des informations saisies
+7. Soumission de l'annonce
+8. Confirmation de la publication de l'annonce
+9. Consultation des annonces publiées
+10. Déconnexion ou retour à l'accueil","
+- Implémentation de la connexion de l'admin
+- Création de la section ""Ajouter une annonce de vente""
+- Développement du formulaire d'annonce (titre, description, prix, etc.)
+- Intégration de la fonctionnalité de téléchargement de photos
+- Ajout des champs pour les caractéristiques (nombre de chambres, superficie, etc.)
+- Validation des informations saisies
+- Enregistrement de l'annonce dans la base de données
+- Affichage de la confirmation de la publication de l'annonce
+- Développement de la consultation des annonces publiées",,1,1,1,0.5,3.5,1,0
+Modifier annonces de ventes,"En tant que admin ,je peux modifier des annonces de ventes","
+1. Connexion de l'utilisateur
+2. Accès à la section ""Mes annonces de vente""
+3. Sélection de l'annonce à modifier
+4. Remplissage du formulaire de modification (titre, description, prix, etc.)
+5. Téléchargement de nouvelles photos (si nécessaire)
+6. Mise à jour des caractéristiques (nombre de chambres, superficie, etc.)
+7. Vérification des informations modifiées
+8. Soumission des modifications
+9. Confirmation de la mise à jour de l'annonce
+10. Déconnexion ou retour à l'accueil","
+- Implémentation de la connexion de l'utilisateur
+- Accès à la section ""Mes annonces de vente""
+- Sélection de l'annonce à modifier
+- Développement du formulaire de modification (titre, description, prix, etc.)
+- Intégration de la fonctionnalité de téléchargement de nouvelles photos
+- Mise à jour des caractéristiques (nombre de chambres, superficie, etc.)
+- Validation des informations modifiées
+- Enregistrement des modifications dans la base de données
+- Affichage de la confirmation de la mise à jour de l'annonce",,1,1,1,0.5,3.5,1,0
+Supprimer annonces de ventes,"En tant que admin ,je peux supprimer des annonces de ventes ","
+1. Connexion de l'utilisateur
+2. Accès à la section ""Mes annonces de vente""
+3. Sélection de l'annonce à supprimer
+4. Confirmation de la suppression de l'annonce
+5. Notification de la suppression réussie
+6. Mise à jour de la liste des annonces
+7. Déconnexion ou retour à l'accueil
+","
+- Implémentation de la connexion de l'utilisateur
+- Accès à la section ""Mes annonces de vente""
+- Sélection de l'annonce à supprimer
+- Implémentation de la confirmation de suppression
+- Suppression de l'annonce de la base de données
+- Affichage de la notification de suppression réussie
+- Mise à jour de la liste des annonces",,0.5,1,0.5,0.5,2,1,0
+,,,,,,,,,59.5,,0
