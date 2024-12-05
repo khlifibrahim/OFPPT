@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex-3</title>
+</head>
+<body>
+    <script>
+        let nomUtilisateur = prompt("Veuillez saisir votre nom :");
+        let confirmation = confirm("Confirmez-vous que votre nom est " + nomUtilisateur + " ?");
+
+        if (confirmation) {
+            console.log("Nom confirmé : " + nomUtilisateur);
+        } else {
+            console.log("Nom non confirmé. Rechargez la page pour saisir à nouveau.");
+        }
+    </script>
+</body>
+</html>

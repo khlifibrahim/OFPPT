@@ -1,0 +1,15 @@
+ul li:nth-child(n+3) {
+    color: red;
+}
+
+section :nth-child(1) {
+    color: yellow;
+}
+
+table, tr, td {
+    border: 2px solid red;
+}
+
+table {
+    width: 500px;
+}

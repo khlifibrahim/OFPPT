@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body .dark {
+    width: 24px;
+    height: 24px;
+    margin: 18px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+body.dark_mode {
+    background-color: rgba(0, 0, 0, 0.838);
+}
+
+
+body .dark img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0 30%;
+    margin-top: 42px;
+}
+
+.container h1 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+.container.dark_mode h1{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.container p {
+    text-align: left;
+}
+.container.dark_mode p {
+    color: rgba(255, 255, 255, 0.5);
+}

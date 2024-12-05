@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    height: 65%;
+    border: 2px solid #252424;
+    border-radius: 22px;
+    position: relative;
+}
+.container div {
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+    width: 180px;
+    height: 180px;
+    background-color: rgb(246, 98, 98);
+    border-radius: 20px;
+    margin: 12px 14px;
+    cursor: pointer;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+
+.floating {
+    transition: all 1s ease-in-out;
+    right: 0 !important;
+    background-color: rgb(85, 93, 242) !important;
+}
